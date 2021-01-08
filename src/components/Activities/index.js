@@ -40,12 +40,12 @@ export default function Activities() {
           </CardHeader>
 
           <CardBody>
-            <UserName>Dinheiro para a conta de luz Martins</UserName>
+            <UserName>Dinheiro para a conta de luz.</UserName>
           </CardBody>
 
           <CardFooter>
             <Details>
-              <Value>R$ 18,00</Value>
+              <Value>R$ 120,00</Value>
               <Divider />             
               <Feather name="lock" color="#fff" size={14} />
               <Date> há 2 meses</Date>            
