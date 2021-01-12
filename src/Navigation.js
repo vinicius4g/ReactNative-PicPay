@@ -7,6 +7,8 @@ import PayButton from './components/PayButton';
 import HomeScreen from './screens/Home';
 import WalletScreen from './screens/Wallet';
 import PayScreen from './screens/Pay';
+import StoreScreen from './screens/Store';
+import NotificationsScreen from './screens/Notifications';
 
 const Tab = createBottomTabNavigator();
 
@@ -23,7 +25,7 @@ const icons = {
         lib: Ionicons,
         name: 'ios-notifications-outline',
     },
-    Settings: {
+    Store: {
         lib: AntDesign,
         name: 'setting',
     },
@@ -32,7 +34,7 @@ const icons = {
 export default function Navigation() {
     return (
         <Tab.Navigator
-          initialRouteName="Wallet"
+          initialRouteName="Notifications"
           screenOptions={({ route, navigation }) => ({ 
             tabBarIcon: ({ color, size, focused}) => {
               if(route.name === 'Pay') {
@@ -79,14 +81,14 @@ export default function Navigation() {
             />
              <Tab.Screen 
               name="Notifications" 
-              component={PayScreen}
+              component={NotificationsScreen}
               options={{
                 title: 'Notificações',
               }}  
             />
              <Tab.Screen 
-              name="Settings" 
-              component={PayScreen}
+              name="Store" 
+              component={StoreScreen}
               options={{
                 title: 'Ajustes',
               }}  
