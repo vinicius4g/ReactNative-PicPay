@@ -11,7 +11,7 @@ export const Message = styled.View`
 `;
 
 export const TextMessageOne = styled.Text`
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
@@ -19,7 +19,7 @@ export const TextMessageOne = styled.Text`
 `;
 
 export const TextMessage = styled.Text`
-  color: #fff;
+  color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
@@ -29,7 +29,7 @@ export const TextMessage = styled.Text`
 export const TextMessageFooter = styled.Text`
  margin-top: 8px;
  padding-left: 20px;
- color: rgba(255, 255, 255, 0.8);
+ color: #696969;
  font-size: 12px;
 `;
 

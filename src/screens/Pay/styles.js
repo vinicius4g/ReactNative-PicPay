@@ -12,5 +12,13 @@ export const Header = styled.View`
   padding: 0 16px;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  flex: 1;
+`;
+
+export const Title = styled.Text`
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 16px;
+  margin-top: 16px;
 `;
