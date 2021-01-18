@@ -44,7 +44,7 @@ export const CardBody = styled.ScrollView.attrs(() => ({
 
 export const OptionBody = styled.TouchableOpacity`
   background: #1e222b;
-  width: 460px;
+  width: 95%;
   height: 90px;
   border-radius: 8px;
   margin-right: 8px;
@@ -75,12 +75,13 @@ export const SubTitle = styled.Text`
 `;
 
 export const Img = styled.Image`
-  width: 460px;
+  width: 92%;
   height: 90px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  margin-left: 16px;
+  
   margin-top: -4px;
+  margin-left: 16px;
 `;
 
 export const TextFooter = styled.Text`

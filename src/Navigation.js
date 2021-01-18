@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { AntDesign, Ionicons } from '@expo/vector-icons';
+import { AntDesign, Ionicons, SimpleLineIcons } from '@expo/vector-icons';
 
 import PayButton from './components/PayButton';
 
@@ -26,15 +26,15 @@ const icons = {
         name: 'ios-notifications-outline',
     },
     Store: {
-        lib: AntDesign,
-        name: 'setting',
+        lib: SimpleLineIcons,
+        name: 'bag',
     },
 };
 
 export default function Navigation() {
     return (
         <Tab.Navigator
-          initialRouteName="Pay"
+          initialRouteName="Store"
           screenOptions={({ route, navigation }) => ({ 
             tabBarIcon: ({ color, size, focused}) => {
               if(route.name === 'Pay') {
@@ -90,7 +90,7 @@ export default function Navigation() {
               name="Store" 
               component={StoreScreen}
               options={{
-                title: 'Ajustes',
+                title: 'Store',
               }}  
             />
         </Tab.Navigator>

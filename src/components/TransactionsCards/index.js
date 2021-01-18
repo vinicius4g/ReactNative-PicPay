@@ -25,8 +25,6 @@ import {
   Entypo, 
 } from '@expo/vector-icons';
 
-
-
 const UserIcon = <FontAwesome name="user-circle" size={18} color="#fff"/>;
 const Pix = <Feather name="check-square" size={18} color="#fff"/>;
 const Billet = <Ionicons name="barcode-outline" size={18} color="#fff"/>;
@@ -35,8 +33,8 @@ const Charge = <AntDesign name="export2" size={18} color="#fff"/>;
 
 const Store = <SimpleLineIcons name="bag" size={18} color="#fff" />;
 const Local = <Entypo name="location-pin" size={18} color="#fff" />;
-import imgGps from '../../images/gps3.jpg';
 
+import imgGps from '../../images/gps3.jpg';
 
 const Phone = <Feather name="smartphone" size={18} color="#fff" />;
 const Bus = <Ionicons name="ios-bus-outline" size={18} color="#fff" />
@@ -51,7 +49,7 @@ const items = [
   {
     key: String(Math.random()),
     icone: Pix,
-    title: '                  Pix',
+    title: '                                              Pix',
   },
   {
     key: String(Math.random()),
@@ -81,7 +79,7 @@ const itemsBody = [
     key: String(Math.random()),
     icone: Local,
     title: 'Local',
-    subTitle: 'Confira estabelecimentos perto de você<',
+    subTitle: 'Confira estabelecimentos perto de você',
   },
 
 ];
@@ -114,23 +112,23 @@ export default function Tips() {
     </Container>
 
     <CardBody>
-      {itemsBody.map((itemsBody) =>(
-        <OptionBody key={itemsBody.key}>
-          <IconCardBody>{itemsBody.icone}</IconCardBody> 
-          <TitleBody>{itemsBody.title}</TitleBody>          
-          <SubTitle>{itemsBody.subTitle}</SubTitle>
+      {itemsBody.map((item) =>(
+        <OptionBody key={item.key}>
+          <IconCardBody>{item.icone}</IconCardBody> 
+          <TitleBody>{item.title}</TitleBody>          
+          <SubTitle>{item.subTitle}</SubTitle>
         </OptionBody>
       ))}
     </CardBody>
-    <Img source={imgGps} ></Img>
+    {/* <Img source={imgGps} ></Img> */}
    
     <TextFooter>Serviços</TextFooter>
 
       <Container>
-        {itemsFooter.map((itemsFooter) =>(
-          <OptionFooter key={itemsFooter.key}>
-            <IconCard>{itemsFooter.icone}</IconCard> 
-            <Title>{itemsFooter.title}</Title>
+        {itemsFooter.map((item) =>(
+          <OptionFooter key={item.key}>
+            <IconCard>{item.icone}</IconCard> 
+            <Title>{item.title}</Title>
           </OptionFooter>
         ))}
     </Container> 

@@ -7,6 +7,8 @@ export const Wrapper = styled.SafeAreaView`
   flex: 1;
 `;
 
+export const Container = styled.ScrollView``;
+
 export const Header = styled(LinearGradient)`
   height: 300px;
 `;
