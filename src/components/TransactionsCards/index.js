@@ -34,7 +34,7 @@ const Charge = <AntDesign name="export2" size={18} color="#fff"/>;
 const Store = <SimpleLineIcons name="bag" size={18} color="#fff" />;
 const Local = <Entypo name="location-pin" size={18} color="#fff" />;
 
-import imgGps from '../../images/gps3.jpg';
+
 
 const Phone = <Feather name="smartphone" size={18} color="#fff" />;
 const Bus = <Ionicons name="ios-bus-outline" size={18} color="#fff" />
@@ -120,7 +120,7 @@ export default function Tips() {
         </OptionBody>
       ))}
     </CardBody>
-    {/* <Img source={imgGps} ></Img> */}
+    
    
     <TextFooter>Serviços</TextFooter>
 

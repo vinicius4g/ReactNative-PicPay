@@ -74,15 +74,7 @@ export const SubTitle = styled.Text`
   margin-left: 50px;
 `;
 
-export const Img = styled.Image`
-  width: 92%;
-  height: 90px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  
-  margin-top: -4px;
-  margin-left: 16px;
-`;
+
 
 export const TextFooter = styled.Text`
   color: #fff;

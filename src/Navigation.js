@@ -34,7 +34,7 @@ const icons = {
 export default function Navigation() {
     return (
         <Tab.Navigator
-          initialRouteName="Store"
+          initialRouteName="Home"
           screenOptions={({ route, navigation }) => ({ 
             tabBarIcon: ({ color, size, focused}) => {
               if(route.name === 'Pay') {
@@ -52,7 +52,7 @@ export default function Navigation() {
           tabBarOptions={{
               style: {
                 backgroundColor: '#131418',
-                borderTopColor: 'rgba(255, 255, 255, 0,2)',    
+                borderTopColor: 'rgba(255, 255, 255, 0,2)',   
               },
               activeTintColor: '#fff',
               inactiveTintColor: '#92929c',
