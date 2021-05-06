@@ -13,7 +13,7 @@ Clone do front-end do aplicativo PicPay feito com ReactNative, feito em estudo p
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Expo](https://docs.expo.io/)
 - [React Native](https://reactnative.dev/docs/getting-started)
-- [React Navigatiob 5](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0/)
+- [React Navigation 5](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0/)
 - [Styled Components](https://styled-components.com/docs/basics)
 
 
