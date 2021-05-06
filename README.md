@@ -4,7 +4,7 @@
 
 
 ## 💻 Projeto
-Clone do front-end do aplicativo PicPay feito com ReactNative, feito em estudo em [Youtube](https://www.youtube.com/watch?v=0CraBZHejKI&ab_channel=MateusSilva)
+Clone do front-end do aplicativo PicPay feito com ReactNative, feito em estudo por [Youtube](https://www.youtube.com/watch?v=0CraBZHejKI&ab_channel=MateusSilva)
 <br>
 - Imagens do projeto funcionando estão na pasta: screenshots.
 
