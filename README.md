@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 🚀 Como executar
-- Clone o repositório
+- Clone o repositório.
 - Rode `yarn install`ou `npm install` para instalar as dependências.
 - Rode o `expo start` ou `yarn start` ou `npm start` para iniciar a aplicação.
 
